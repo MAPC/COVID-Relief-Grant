@@ -237,6 +237,6 @@ cfsubcrit['Gateway Plus Score'] = maxminnorm(cfsubcrit['Gateway Plus Population'
 cfsubcrit['Final Score'] = cfsubcrit['Poverty Score'] + cfsubcrit['Health Impact Score'] + cfsubcrit['Economic Impact Score'] + cfsubcrit['Gateway Plus Score']
 
 cfcrit = cfsubcrit[['Community Foundation', 'Poverty Score', 'Health Impact Score', 'Economic Impact Score', 'Gateway Plus Score', 'Final Score', 'Municipalities Served']]
-destfile = "K:\\DataServices\\Projects\\Data_Requests\\2020\\DHCD_COVID_Grants\\Data\\Tabular\\CFresults.csv"
+destfile = "Insert export path"
 cfcrit.to_csv(destfile)
 
